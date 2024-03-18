@@ -1,0 +1,764 @@
+body,
+html {
+
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.header-top {
+  background-color: white;
+  text-align: right;
+}
+
+#header {
+  background-color: white;
+  width: 100vw;
+  height: 60vh;
+  margin: 0;
+  padding: 0;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  background-image: url("images/background1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-size: 120% auto;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+/* Contact Number Styles */
+.contact-number {
+  font-size: 16px;
+  color: #333;
+  margin-right: 200px;
+  /* Adjust the color as needed */
+}
+
+.contact-number img {
+  vertical-align: middle;
+  /* Adjust the color as needed */
+}
+
+.contact-number a {
+  text-decoration: none;
+  color: #e03e2d;
+  /* Adjust the highlight color as needed */
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 100px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #e03e2d;
+  ;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #ffffff;
+  /* Or any color you want */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  /* If you want to add styles to the logo container */
+}
+
+.nav-links {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  list-style: none;
+  display: flex;
+  margin-right: 150px;
+  padding: 10px;
+}
+
+.nav-links li {
+  padding: 0 15px;
+  background-color: #ffffff;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  /* Or the color you prefer for the text */
+  font-size: 16px;
+}
+
+.header-content {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  padding-top: 100px;
+  background-image: url("background.jpg");
+  /* Replace with your image path */
+  background-size: cover;
+  color: white;
+}
+
+.header-title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.header-text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.input {
+  position: relative;
+  left: calc(25%);
+}
+
+.input input {
+  border: none;
+  display: block;
+  width: 50%;
+}
+
+.input img {
+  position: absolute;
+  top: 10px;
+  left: 5px
+}
+
+#addressInput::placeholder {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+#addressInput {
+  height: 25px;
+  padding: 10px;
+  text-indent: 25px;
+  border-radius: 5px;
+}
+
+/* #location {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 50px;
+} */
+
+
+/* input[type="text"] {
+  padding: 10px;
+  margin-top: 20px;
+} */
+
+.input button {
+  position: absolute;
+  top: -5px;
+  right: calc(50%);
+  padding: 10px 20px;
+  background-color: #e03e2d;
+  ;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #e03e2d;
+  ;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+svg {
+  height: 25px;
+  /* You can set the height as needed */
+  width: auto;
+  /* You can set the width as needed */
+}
+
+.advantages-section h2 {
+  color: #e03e2d;
+  ;
+}
+
+.advantages-section>p {
+  font-weight: bold;
+}
+
+.advantages-section {
+  background-color: rgb(241, 246, 248);
+  text-align: center;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+/* Card text styles */
+.advantages-container {
+  display: flex;
+  justify-content: center;
+  /* Center items horizontally */
+  /* Allow items to wrap onto the next line */
+  gap: 20px;
+  /* Space between the items */
+}
+
+/* Card styles */
+.advantage-item {
+  flex: -0.5;
+  width: 15%;
+  margin: 5px;
+  padding: 5px;
+  /* background: #0C436B; */
+  color: white;
+  /* Text color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.advantage-item h3 a {
+  color: rgb(0, 150, 170);
+}
+
+.advantage-item h3 a:link {
+  color: rgb(0, 150, 170);
+}
+
+/* Style for the images within the advantage items */
+.advantage-item img {
+  width: 60%;
+  /* Adjust the size of the icons */
+  height: auto;
+  /* Maintain the aspect ratio */
+  margin-bottom: 20px;
+}
+
+/* Style for the titles within the advantage items */
+.advantage-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style for the paragraphs within the advantage items */
+.advantage-item p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 14px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .advantages-container {
+    flex-direction: column;
+    align-items: center;
+    /* Stack the items on top of each other */
+  }
+
+  .advantage-item {
+    width: 80%;
+    /* Make each item take up more width on smaller screens */
+  }
+}
+
+.talk-to-us-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: rgb(0, 150, 170);
+  /* Adjust button color as needed */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.talk-to-us-btn:hover {
+  background-color: #c03228;
+  /* Darken button on hover */
+}
+
+@media (max-width: 768px) {
+  .advantage-item {
+    width: 48%;
+    /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .advantages-container {
+    flex-direction: column;
+  }
+
+  .advantage-item {
+    width: 100%;
+    /* Full width on very small screens */
+  }
+}
+
+.sell-steps-section {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  /* Adjust as needed */
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.sell-steps-header h2 {
+  color: #e03e2d;
+  /* Adjust headline color as needed */
+}
+
+.sell-steps-header p {
+  color: #333;
+  /* Adjust paragraph text color as needed */
+  padding: 0 20px;
+  /* Give some padding on the sides */
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.sell-steps-content {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.step {
+  width: 20%;
+  /* Adjust width as necessary */
+  margin: 0 50px;
+}
+
+.step-image-container {
+  margin-bottom: 20px;
+}
+
+.step-image-container img {
+  width: 150px;
+  height: 150px;
+  /* Make the image fill the container */
+  border-radius: 50%;
+  /* Circular images */
+  border: 1px solid #e03e2d;
+  /* Border color */
+}
+
+.step h4 {
+  color: #e03e2d;
+  /* Adjust headline color as needed */
+  margin: 10px 0;
+}
+
+.step p {
+  color: #666;
+  /* Adjust paragraph text color as needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .sell-steps-content {
+    flex-direction: column;
+  }
+
+  .step {
+    width: 80%;
+    /* Adjust for smaller screens */
+    margin-bottom: 20px;
+  }
+}
+
+/* Testimonials Section Styles */
+.testimonials-section {
+  background-image: url("Images/gray-siding-house-blue-front-doo.jpg");
+  /* Your testimonial background image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.testimonial-container {
+  max-width: 800px;
+  /* Adjust width as needed */
+  margin: 0 auto;
+  position: relative;
+  /* For positioning the navigation arrows */
+}
+
+.testimonial-content {
+  background: rgba(0, 0, 0, 0.7);
+  /* Semi-transparent background */
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  /* Rounded corners */
+}
+
+.testimonial-quote {
+  font-weight: bold;
+  font-size: 1.25em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.testimonial-quote span {
+  font-size: 40px;
+  font-weight: bold;
+  vertical-align: middle;
+  color: gray;
+}
+
+.testimonial-author {
+  color: rgba(250, 180, 5);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.testimonial-rating img {
+  width: 24px;
+  /* Adjust as needed */
+  height: auto;
+  display: inline-block;
+}
+
+.view-more-reviews-btn {
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  /* Adjust button color as needed */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* We Buy Houses Section Styles */
+.we-buy-houses-section {
+  background: #f8f9fa;
+  /* Replace with your actual background color */
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.we-buy-houses-section h2 {
+  color: rgb(0, 150, 170);
+  /* Replace with the actual color */
+  font-size: 2em;
+  margin-bottom: 20px;
+  margin-left: 150px;
+  text-align: left;
+}
+
+.we-buy-houses-section h3 {
+  color: black;
+  font-size: 1em;
+  /* Replace with the actual color */
+  margin-bottom: 20px;
+  margin-left: 150px;
+  text-align: left;
+}
+
+.we-buy-houses-section p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.learn-more-link {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: #007481;
+  display: block;
+  /* Replace with the actual color */
+  text-decoration: underline;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.talk-link {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: #007481;
+  display: block;
+  /* Replace with the actual color */
+  text-decoration: underline;
+  text-align: left;
+}
+
+.personal-touch {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  background: #ffffff;
+  /* Light background for contrast */
+  margin-top: 20px;
+  border-radius: 10px;
+  /* Rounded corners for the box */
+}
+
+.personal-touch img {
+  float: left;
+  margin-left: 150px;
+  width: 150px;
+  height: 200px;
+}
+
+.personal-touch h3 {
+  color: #c03228;
+  /* Replace with the actual color */
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  text-align: left;
+  margin-left: 250px;
+}
+
+.personal-touch p {
+  margin-left: 200px;
+}
+
+
+.contact-info {
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  background-color: rgb(241, 246, 248);
+  text-align: right;
+  margin-right: 150px;
+}
+
+.phone-number {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.btn.request-consultation {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 150px;
+  padding: 10px 20px;
+  background-color: #007481;
+  /* Replace with your actual button color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.request-consultation:hover {
+  background-color: #005457;
+  /* Darker shade for hover effect */
+}
+
+/* Footer Styles */
+.footer-section {
+  background-color: #333;
+  /* Adjust to match your site's colors */
+  color: #fff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top,
+.footer-middle,
+.footer-bottom {
+  text-align: center;
+}
+
+.feedback button {
+  background-color: #006f44;
+  /* Adjust to match your site's colors */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer-column {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.8;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  /* Adjust to match your site's colors */
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.legal {
+  padding: 10px 20%;
+  background: #333;
+  color: white;
+}
+
+.areas-serviced p,
+.legal p {
+  font-size: 12px;
+}
+
+/* You may need media queries to handle responsiveness */
+@media (max-width: 768px) {
+  .footer-column {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+}
+
+/* Footer Grid Styles */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+
+.footer-feedback {
+  padding-top: 10px;
+  float: left;
+}
+
+.footer-feedback h4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.footer-feedback button {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(0, 150, 170);
+  background-color: transparent;
+  /* Adjust the button color */
+  border: 2px solid rgb(0, 150, 170);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer-links {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  padding-left: 100px;
+  grid-column: 2 / -1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  padding: 5px;
+}
+
+.footer-column ul li a {
+  color: white;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-feedback {
+    order: -1;
+    /* Feedback section will go on top */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-links {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.footer-fullwidth {
+  background-color: #333;
+  /* Your desired footer background color */
+  padding: 0px 0;
+  /* Top and bottom padding */
+  color: white;
+}
+
+.footer-content {
+  margin: 0 20%;
+  /* Left and right margin */
+}
+
+/* If you're using a grid system within the footer, it would look something like this: */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}

@@ -1,0 +1,211 @@
+.faq-section {
+    background-color: #004445;
+    /* Dark green background */
+    color: #fff;
+    /* White text color */
+    padding: 40px 80px;
+    /* Padding around the content */
+}
+
+#header {
+    background-color: white;
+    width: 100vw;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    background-image: url("Images/big-american-house-generative-ai.jpg");
+    background-size: cover;
+    background-position: center;
+    background-size: 120% auto;
+}
+
+.faq-header h1,
+.faq-header h2 {
+    text-align: center;
+    /* Center the header text */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.faq-header h1 {
+    font-size: 2.5em;
+    /* Large font size for the main title */
+    margin-bottom: 0.25em;
+    /* Space between the main title and subtitle */
+}
+
+.faq-header h2 {
+    font-size: 2em;
+    /* Smaller font size for the subtitle */
+    font-weight: normal;
+    /* Normal font weight for the subtitle */
+}
+
+.faq-content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgb(29, 160, 153);
+    max-width: 900px;
+    /* Maximum width of the content */
+    margin: 20px auto;
+    /* Center the content block with automatic margins */
+    /* Center the text */
+}
+
+.faq-content-title {
+    font-size: 40px;
+    font-weight: bold;
+    /* Font size for section title */
+    margin-bottom: 20px;
+    /* Space below the section title */
+}
+
+.faq-content p {
+    color: black;
+    font-size: 25px;
+    /* Font size for the paragraph */
+    line-height: 1.6;
+    /* Line height for readability */
+    margin-bottom: 20px;
+    /* Space below each paragraph */
+}
+
+.talk-to-us-btn {
+    background-color: red;
+    /* Red button background */
+    color: #fff;
+    /* White button text */
+    border: none;
+    /* No border */
+    padding: 15px 30px;
+    /* Padding inside the button */
+    font-size: 1em;
+    /* Font size inside the button */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+    /* Transition for button hover */
+    font-weight: bold;
+}
+
+.faq-content-btn {
+    text-align: center;
+}
+
+.talk-to-us-btn:hover {
+    background-color: #c03228;
+    /* Darken the button on hover */
+}
+
+@media (max-width: 768px) {
+    .faq-section {
+        padding: 20px;
+        /* Smaller padding on smaller screens */
+    }
+
+    .faq-content {
+        max-width: 100%;
+        /* Allow content to fill the space on smaller screens */
+    }
+}
+
+
+.faq-accordion {
+    max-width: 700px;
+    margin: auto;
+}
+
+.faq-item {
+    background-color: rgb(143, 225, 212);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    padding-top: 10px;
+}
+
+/* Style for the plus icon */
+.faq-item::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.cta-section {
+    background-color: #004445;
+    /* Replace with the actual color from the image */
+    color: white;
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cta-content h2 {
+    font-size: 25px;
+}
+
+.cta-content p {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 200px 0 200px;
+}
+
+.cta-button {
+    background-color: #FFC107;
+    /* Gold color for the button */
+    color: #333;
+    /* Dark text color for contrast */
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    margin: 0 100px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #FFA000;
+    /* Darker shade for hover effect */
+}
+
+.contact-info {
+    width: 100%;
+    height: 60px;
+    margin: 20px 0 0 0;
+    background-color: rgb(241, 246, 248);
+    text-align: right;
+    margin-right: 150px;
+}
+
+@media (max-width: 768px) {
+    .cta-contact {
+        flex-direction: column;
+    }
+
+    .cta-or {
+        display: none;
+    }
+
+    .cta-button {
+        margin-bottom: 15px;
+    }
+}
